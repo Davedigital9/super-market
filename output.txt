@@ -1,0 +1,85 @@
+First 5 rows of the supermarket_sales dataset:
+    Invoice ID Branch       City Customer type  Gender  ...      Payment    cogs  gross margin percentage  gross income  Rating
+0  750-67-8428      A     Yangon        Member  Female  ...      Ewallet  522.83                 4.761905       26.1415     9.1
+1  226-31-3081      C  Naypyitaw        Normal  Female  ...         Cash   76.40                 4.761905        3.8200     9.6
+2  631-41-3108      A     Yangon        Normal    Male  ...  Credit card  324.31                 4.761905       16.2155     7.4
+3  123-19-1176      A     Yangon        Member    Male  ...      Ewallet  465.76                 4.761905       23.2880     8.4
+4  373-73-7910      A     Yangon        Normal    Male  ...      Ewallet  604.17                 4.761905       30.2085     5.3
+
+[5 rows x 17 columns]
+
+Summary statistics of the supermarket_sales dataset:
+        Unit price     Quantity       Tax 5%        Total        cogs  gross margin percentage  gross income      Rating
+count  1000.000000  1000.000000  1000.000000  1000.000000  1000.00000              1000.000000   1000.000000  1000.00000
+mean     55.672130     5.510000    15.379369   322.966749   307.58738                 4.761905     15.379369     6.97270
+std      26.494628     2.923431    11.708825   245.885335   234.17651                 0.000000     11.708825     1.71858
+min      10.080000     1.000000     0.508500    10.678500    10.17000                 4.761905      0.508500     4.00000
+25%      32.875000     3.000000     5.924875   124.422375   118.49750                 4.761905      5.924875     5.50000
+50%      55.230000     5.000000    12.088000   253.848000   241.76000                 4.761905     12.088000     7.00000
+75%      77.935000     8.000000    22.445250   471.350250   448.90500                 4.761905     22.445250     8.50000
+max      99.960000    10.000000    49.650000  1042.650000   993.00000                 4.761905     49.650000    10.00000
+
+Gender-based Sales:
+Gender
+Female    167882.925
+Male      155083.824
+Name: Total, dtype: float64
+
+Product Line Sales:
+Product line
+Electronic accessories    54337.5315
+Fashion accessories       54305.8950
+Food and beverages        56144.8440
+Health and beauty         49193.7390
+Home and lifestyle        53861.9130
+Sports and travel         55122.8265
+Name: Total, dtype: float64
+
+Average Rating: 6.9727
+
+Payment Method Sales:
+Payment
+Cash           112206.570
+Credit card    100767.072
+Ewallet        109993.107
+Name: Total, dtype: float64
+
+Quantity Sold:
+Product line
+Electronic accessories    971
+Fashion accessories       902
+Food and beverages        952
+Health and beauty         854
+Home and lifestyle        911
+Sports and travel         920
+Name: Quantity, dtype: int64
+
+Branch-wise Sales:
+Branch
+A    106200.3705
+B    106197.6720
+C    110568.7065
+Name: Total, dtype: float64
+
+Monthly Sales:
+Year  Month
+2019  1        116291.868
+      2         97219.374
+      3        109455.507
+Name: Total, dtype: float64
+
+Supermarket Sales Dataset Summary:
+        Unit price     Quantity       Tax 5%        Total        cogs  gross margin percentage  gross income      Rating
+count  1000.000000  1000.000000  1000.000000  1000.000000  1000.00000              1000.000000   1000.000000  1000.00000
+mean     55.672130     5.510000    15.379369   322.966749   307.58738                 4.761905     15.379369     6.97270
+std      26.494628     2.923431    11.708825   245.885335   234.17651                 0.000000     11.708825     1.71858
+25%      32.875000     3.000000     5.924875   124.422375   118.49750                 4.761905      5.924875     5.50000
+50%      55.230000     5.000000    12.088000   253.848000   241.76000                 4.761905     12.088000     7.00000
+75%      77.935000     8.000000    22.445250   471.350250   448.90500                 4.761905     22.445250     8.50000
+max      99.960000    10.000000    49.650000  1042.650000   993.00000                 4.761905     49.650000    10.00000
+
+Total Sales Amount: $307587.38
+
+Average Rating: 6.97
+
+Summary report generated successfully.
